@@ -129,7 +129,7 @@ a:focus, button:focus, input:focus, select:focus, textarea:focus {
 }
 
 .web-image {
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
     border-radius: 4px;
     display: block;
