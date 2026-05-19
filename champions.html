@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Outstanding grandmasters in chess history and their unique playing styles.">
+    <title>World Champions | ChessUniverse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .team-flex {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        .team-member {
+            flex: 1 1 300px;
+            background: var(--bg-gray);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main navigation menu">
+            <div class="logo"><a href="index.html">ChessUniverse</a></div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pieces.html">Pieces</a></li>
+                <li><a href="openings.html">Openings</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+                <li><a href="champions.html" class="active" aria-current="page">Champions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <h1>Legends of the Chess Crown</h1>
+        <p>History remembers geniuses whose combinations and strategic maneuvers are studied for centuries.</p>
+
+        <div class="team-flex">
+            <section class="team-member" aria-labelledby="champ1-name">
+                <img src="https://picsum.photos" alt="Portrait of Jose Raul Capablanca" style="border-radius: 50%;">
+                <h2 id="champ1-name">Jose Raul Capablanca</h2>
+                <p><strong>Style:</strong> Intuitive, flawless endgame play</p>
+                <p>The third World Chess Champion, famous for his clear style of play free from tactical blunders.</p>
+            </section>
+
+            <section class="team-member" aria-labelledby="champ2-name">
+                <img src="https://picsum.photos" alt="Portrait of Mikhail Tal" style="border-radius: 50%;">
+                <h2 id="champ2-name">Mikhail Tal</h2>
+                <p><strong>Style:</strong> Aggressive, sacrificial, combinational</p>
+                <p>The eighth World Chess Champion, remembered as the Magician from Riga for his incredible intuitive piece sacrifices.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 ChessUniverse. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

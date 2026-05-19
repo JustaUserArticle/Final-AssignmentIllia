@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registration for upcoming offline and online chess tournaments organized by our club.">
+    <title>Tournament Registration | ChessUniverse</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main navigation menu">
+            <div class="logo"><a href="index.html">ChessUniverse</a></div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pieces.html">Pieces</a></li>
+                <li><a href="openings.html">Openings</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+                <li><a href="champions.html">Champions</a></li>
+                <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <h1>Tournament Application Form</h1>
+        <p>Would you like to test your skills and increase your official chess rank? Fill out the registration form for the upcoming competition.</p>
+
+        <form action="#" method="post" class="accessible-form" aria-label="Player registration form">
+            
+            <div class="form-group">
+                <label for="user-name" class="form-label">First and Last Name:</label>
+                <input type="text" id="user-name" name="name" class="form-control" required autocomplete="name">
+            </div>
+
+            <div class="form-group">
+                <label for="user-email" class="form-label">Email Address:</label>
+                <input type="email" id="user-email" name="email" class="form-control" required autocomplete="email">
+            </div>
+
+            <div class="form-group">
+                <label for="rank" class="form-label">Current Chess Title / Rank:</label>
+                <select id="rank" name="rank" class="form-control">
+                    <option value="none">No formal rank (Beginner)</option>
+                    <option value="3rd">Third Category Rank</option>
+                    <option value="2nd">Second Category Rank</option>
+                    <option value="1st">First Category / Candidate Master</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message" class="form-label">Additional Requests or Comments:</label>
+                <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Register for Tournament</button>
+        </form>
+
+        <figure style="margin-top: 2rem;">
+            <img src="https://picsum.photos" alt="Two chess players shaking hands across the board before starting an official game" class="web-image">
+            <figcaption class="img-caption">Fig. 5: Observing chess etiquette is the foundation of mutual respect between players.</figcaption>
+        </figure>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 ChessUniverse. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
